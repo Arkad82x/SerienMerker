@@ -49,10 +49,7 @@ public class Window extends JFrame implements IDisplay {
 
 	}
 
-	public static void main(String[] args) {
-		new Window("Serien Merker", new Dimension(1000, 600),
-				new Point(100, 50));
-	}
+	
 
 	@Override
 	public void updateGui() {
